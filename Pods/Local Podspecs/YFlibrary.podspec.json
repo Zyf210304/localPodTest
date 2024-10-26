@@ -1,0 +1,31 @@
+{
+  "name": "YFlibrary",
+  "version": "0.0.1",
+  "summary": "自定义扩展库",
+  "description": "本地扩展库 方便你我他",
+  "homepage": "https://github.com/Zyf210304",
+  "license": "LICENSE",
+  "authors": {
+    "张亚飞": "672233580@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Zyf210304",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  }
+}

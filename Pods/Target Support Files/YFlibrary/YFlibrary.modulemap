@@ -1,0 +1,6 @@
+framework module YFlibrary {
+  umbrella header "YFlibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

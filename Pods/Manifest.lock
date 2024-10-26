@@ -1,0 +1,27 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - SnapKit (5.7.1)
+  - YFlibrary (0.0.1):
+    - MBProgressHUD
+    - SnapKit
+
+DEPENDENCIES:
+  - YFlibrary (from `./localPod/YFlibrary`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - SnapKit
+
+EXTERNAL SOURCES:
+  YFlibrary:
+    :path: "./localPod/YFlibrary"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  YFlibrary: a830279f6c02419db4a796cfeb1986c04a126894
+
+PODFILE CHECKSUM: b8fb7a31f5fa705f3ba8ce5bf489bd53ef4bd9a3
+
+COCOAPODS: 1.15.2
